@@ -33,7 +33,7 @@ describe('Min-Max Numbers in a List: ', function () {
     });
 
     it('should return [72] for [72]', function () {
-      expect(myApp.findMinMax([72])).to.eql([4]);
+      expect(myApp.findMinMax([72])).to.eql([72]);
     });
 
   });
