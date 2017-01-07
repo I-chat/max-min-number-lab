@@ -13,6 +13,10 @@ describe('Min-Max Numbers in a List: ', function () {
       expect(myApp.findMinMax([1, 2, 3, 4])).to.eql([1, 4]);
     });
 
+    it('should return [4, 15] for [7, 8, 10, 4, 15, 6]', function(){
+      expect(myApp.findMinMax([7, 8, 10, 4, 15, 6])).to.eql([4, 15]);
+    });
+
     it('should return [4, 6] for [6, 4]', function () {
       expect(myApp.findMinMax([6, 4])).to.eql([4, 6]);
     });
@@ -26,6 +30,10 @@ describe('Min-Max Numbers in a List: ', function () {
 
     it('should return [4] for [4, 4, 4, 4]', function () {
       expect(myApp.findMinMax([4, 4, 4, 4])).to.eql([4]);
+    });
+
+    it('should return [72] for [72]', function () {
+      expect(myApp.findMinMax([72])).to.eql([4]);
     });
 
   });
