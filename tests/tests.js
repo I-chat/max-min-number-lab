@@ -38,4 +38,9 @@ describe('Min-Max Numbers in a List: ', function () {
 
   });
 
+  describe("Return a string of 'Array is empty!' when the array is empty", function () {
+    it("should return 'Array is empty!' for []", function () {
+      expect(myApp.findMinMax([])).to.eql("Array is empty!");
+    })
+  })
 });

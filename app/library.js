@@ -11,8 +11,8 @@ file.findMinMax = function(arr) {
       min = arr[i];
     }
   }
-  if (min === undefined || max === undefined) {
-    return [];
+  if (min === undefined) {
+    return "Array is empty!";
   } else if (min === max){
     return [min];
   } else {
